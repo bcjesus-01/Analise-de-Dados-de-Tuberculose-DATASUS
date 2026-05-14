@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +217,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+=======
+# Ignorar as bases de dados brutas e pesadas
+data/raw/
+
+# Ignorar o CSV processado se ele for muito grande (opcional, mas recomendado)
+# data/processed/
+
+# Ignorar pastas temporárias do Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignorar pastas de ambiente virtual Python (se você estiver usando um)
+venv/
+.env
+__pycache__/
+>>>>>>> 3a67a2e (feat: estrutura inicial, extracao SINAN e limpeza de nulos)
